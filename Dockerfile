@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:6.14.2-slim
 
 RUN mkdir /usr/src
 RUN mkdir /usr/src/goof
